@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="p1"></p>
+    
+<script>
+
+// pop()
+
+// let fruits = ["яблоко", "апельсин", "груша",];
+// let s1 = fruits.pop();
+// alert(s1);
+// alert(fruits);
+
+
+
+// push()
+
+// let fruits = ["яблоко", "апельсин"];
+// fruits.push("мандарин");
+// alert(fruits);
+
+
+
+// shift()
+
+// let fruits = ["яблоко", "апельсин", "груша",];
+// let s1 = fruits.shift()
+// alert(s1);
+// alert(fruits);
+
+
+
+// unshift()
+
+// let fruits = ["яблоко", "апельсин"];
+// fruits.unshift("мандарин");
+// alert(fruits);
+
+
+
+// split() преобразовать строку в массив
+
+// let names = 'маша, петя, марина, василий';
+// let arr = names.split(', ');
+// alert(arr);
+// for (let i=0;i<arr.length; i++) {
+// alert (`Вам сообщение: ${arr[i]}`)
+// };
+
+
+
+// join()
+
+// let arr = ['маша', 'петя', 'марина', 'василий'];
+// let s = arr.join('____');
+// alert(s);
+
+
+
+// splice()
+
+// let arr = [1,2,3,4,5];
+// let a = arr.splice(1,2,2.1,3.5);
+// alert (a);
+// alert (arr);
+
+
+
+// slice
+// let arr = ['ехали', 'медведи', 'на', 'велосипеде'];
+// let arr1 = arr.slice(1,2);
+// alert(arr1);
+
+
+
+// reverse()
+
+// let arr = [1,2,3];
+// arr.reverse();
+// alert(arr);
+
+
+
+//concat
+
+// let arr=[1,2];
+// let arr1=[3,4,'Вася', true];
+// let newarr = arr.concat(arr1);
+// alert (newArr);
+
+
+
+//forEach
+
+// let fruits = ["яблоко", "апельсин", "груша",];
+// fruits.forEach(function(item, i, fruits) {
+//     alert(`${i} ${item} (массив: ${fruits})`)
+// })
+
+
+
+
+
+// Минск - большой, чистый город
+// Минск - крупный, современный город
+
+
+
+let str = 'Минск - большой, чистый город';
+let arr = str.split(' ');
+let arr1 = arr.splice(2,2,'крупный,', 'современный');
+let str1 = arr.join(' ');
+p1.innerHTML = str1;
+
+
+
+
+
+
+</script>
+
+<p id="p1"></p>
+
+
+</body>
+</html>
